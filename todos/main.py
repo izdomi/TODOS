@@ -228,7 +228,7 @@ def add_task_command(args, conn, cur):
     values = (
         args.title,
         args.status,
-        args.hours,
+        args.time,
         started,
         args.project_id,
         args.user_id,
